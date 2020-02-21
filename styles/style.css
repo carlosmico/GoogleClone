@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  all: unset;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+a {
+  all: unset;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 13px;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav > div:first-child {
+  min-width: 200px;
+}
+
+nav > div:last-child {
+  min-width: 300px;
+}
